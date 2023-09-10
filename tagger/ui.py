@@ -220,7 +220,7 @@ def on_ui_tabs():
                                     label='huge batch query (TF 2.10, '
                                     'experimental)',
                                     value=False,
-                                    interactive=version.parse(tf_version) ==
+                                    interactive=version.parse('0.0.0') ==
                                     version.parse('2.10')
                                 )
                             with gr.Column(variant='panel'):
